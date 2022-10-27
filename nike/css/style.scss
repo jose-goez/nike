@@ -1,0 +1,22 @@
+ div {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        h1{
+            color: azure;
+            font-size: 70px;
+            font-family: sans-serif;
+        }
+        img {
+            cursor: pointer;
+        }
+
+        img:hover {
+            min-width: 300px;
+            animation: swing;
+            /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 3s
+        }

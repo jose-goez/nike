@@ -1,0 +1,44 @@
+.catalogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.productos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.producto {
+    border: solid 1px;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 800px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.producto img {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(32, 31, 31);
+}
+
+ul li {
+    list-style: none;
+    line-height: 40px;
+}

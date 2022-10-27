@@ -1,0 +1,33 @@
+div {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h1 {
+  color: azure;
+  font-size: 70px;
+  font-family: sans-serif;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  min-width: 300px;
+  -webkit-animation: swing;
+          animation: swing;
+  /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+/*# sourceMappingURL=style.css.map */
